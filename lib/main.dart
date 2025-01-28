@@ -18,7 +18,7 @@ class FlameFirstStep extends FlameGame {
     final LottieComposition lottieComposition = await loadLottie(lottieBuilder);
     //Створення контролера ефектів. Тут ви також можете погратися та заповнити ще параметри :)
     final EffectController controller = EffectController(duration: 1, infinite: true, alternate: true);
-    //Створення самого компоненту анімації, цей комонент вже можна добавляти до світу, який вам взбреде в голову :)
+    //Створення самого компоненту анімації, цей компонент вже можна добавляти до світу, який вам взбреде в голову :)
     //Також можна тут погратися з position та size на ваш розсуд
     //Тільки запреЩаю ставити дуже великі значення, бо наш кубок (який зароблено непосильним трудом) полетить в стратосферу :)
     LottieComponent animation = LottieComponent(lottieComposition,
